@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\batuhan.tuncer\\Desktop\\Go-There-.Net\\Go-There NET\\Go-There\\Go-There.csproj": {}
+    "C:\\Users\\batuhan.tuncer\\Desktop\\Go-ThereBack\\Go-There NET\\Go-There\\Go-There.csproj": {}
   },
   "projects": {
-    "C:\\Users\\batuhan.tuncer\\Desktop\\Go-There-.Net\\Go-There NET\\Go-There\\Go-There.csproj": {
+    "C:\\Users\\batuhan.tuncer\\Desktop\\Go-ThereBack\\Go-There NET\\Go-There\\Go-There.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\batuhan.tuncer\\Desktop\\Go-There-.Net\\Go-There NET\\Go-There\\Go-There.csproj",
+        "projectUniqueName": "C:\\Users\\batuhan.tuncer\\Desktop\\Go-ThereBack\\Go-There NET\\Go-There\\Go-There.csproj",
         "projectName": "Go-There",
-        "projectPath": "C:\\Users\\batuhan.tuncer\\Desktop\\Go-There-.Net\\Go-There NET\\Go-There\\Go-There.csproj",
+        "projectPath": "C:\\Users\\batuhan.tuncer\\Desktop\\Go-ThereBack\\Go-There NET\\Go-There\\Go-There.csproj",
         "packagesPath": "C:\\Users\\batuhan.tuncer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\batuhan.tuncer\\Desktop\\Go-There-.Net\\Go-There NET\\Go-There\\obj\\",
+        "outputPath": "C:\\Users\\batuhan.tuncer\\Desktop\\Go-ThereBack\\Go-There NET\\Go-There\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\batuhan.tuncer\\AppData\\Roaming\\NuGet\\NuGet.Config",
