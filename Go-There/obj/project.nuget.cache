@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "4JgkHuNP0ZYP0mYqtMkskl0BxUJrSKeuDX3aKMEicj8r5tqVokI/XVngoMgmh8Ka6tZnr0BKYStfgMo3AobLsQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\batuhan.tuncer\\Desktop\\Go-There-.Net\\Go-There NET\\Go-There\\Go-There.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\batuhan.tuncer\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\batuhan.tuncer\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\batuhan.tuncer\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\batuhan.tuncer\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\batuhan.tuncer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\batuhan.tuncer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
