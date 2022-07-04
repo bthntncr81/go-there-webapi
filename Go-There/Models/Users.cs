@@ -1,4 +1,4 @@
-namespace Go_There;
+namespace Go_There.Models;
 
 public class Users{
 

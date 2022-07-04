@@ -6,14 +6,15 @@ namespace Go_There.Controllers;
 [Route("[controller]")]
 public class UsersController : ControllerBase
 {
-  private static List<Users> users = new List<Users>{
-new Users{ Id=1, Name="John", Surname="Emili",Adress="203/15 Sokak no:6 daire 12",Email="John@example.com", Password="password",Age=20 },
-new Users{ Id=2, Name="Maya", Surname="Stark",Adress="203/15 Sokak no:6 daire 12",Email="John@example.com", Password="password",Age=20 },
+
+  private static List<Models.Users> users = new List<Models.Users>{
+new Models.Users{ Id=1, Name="John", Surname="Emili",Adress="203/15 Sokak no:6 daire 12",Email="John@example.com", Password="password",Age=20 },
+new Models.Users{ Id=2, Name="Maya", Surname="Stark",Adress="203/15 Sokak no:6 daire 12",Email="John@example.com", Password="password",Age=20 },
         };
 
 
     [HttpGet]
-    public async Task<ActionResult<List<Users>>> Get()
+    public async Task<ActionResult<List<Models.Users>>> Get()
     {
       
         return Ok(users);
@@ -21,13 +22,13 @@ new Users{ Id=2, Name="Maya", Surname="Stark",Adress="203/15 Sokak no:6 daire 12
 
 
     [HttpPost]
- public async Task<ActionResult<List<Users>>> AddUser(Users user)
+ public async Task<ActionResult<List<Models.Users>>> AddUser(Models.Users user)
     {
       users.Add(user);
         return Ok(users);
     }
     [HttpGet("{id}")]
- public async Task<ActionResult<List<Users>>> GetSpesificUser(int id)
+ public async Task<ActionResult<List<Models.Users>>> GetSpesificUser(int id)
     {
      var userGet=users.Find(h=> h.Id == id);
      if(userGet==null) return BadRequest("User Not Found");
@@ -35,7 +36,7 @@ new Users{ Id=2, Name="Maya", Surname="Stark",Adress="203/15 Sokak no:6 daire 12
      
     }
 [HttpPut]
- public async Task<ActionResult<List<Users>>> Put(Users user)
+ public async Task<ActionResult<List<Models.Users>>> Put(Models.Users user)
     {
 
         var userPut =users.Find(h=> h.Id == user.Id);
@@ -51,7 +52,7 @@ new Users{ Id=2, Name="Maya", Surname="Stark",Adress="203/15 Sokak no:6 daire 12
         return Ok(users);
     }
     [HttpDelete]
-    public async Task<ActionResult<List<Users>>> DeleteUser(int id)
+    public async Task<ActionResult<List<Models.Users>>> DeleteUser(int id)
     {
      var userDelete=users.Find(h=> h.Id == id);
      if(userDelete==null) return BadRequest("User Not Found");
